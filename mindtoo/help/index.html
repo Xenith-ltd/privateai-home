@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en-GB" data-page="products">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'inline-speculation-rules'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'none'; media-src 'none'; object-src 'none'; frame-src 'none'; worker-src 'none'; manifest-src 'self'; form-action 'none'; base-uri 'none'">
+<meta name="referrer" content="no-referrer">
+<meta name="color-scheme" content="dark light">
+<title>MindToo help · PrivateAI</title>
+<meta name="description" content="Installing MindToo on Windows, checking your download, connecting your assistants, where your memory lives, export, backup and uninstalling.">
+<link rel="canonical" href="https://privateai.ltd/mindtoo/help/">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#110c26">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#f7f5fb">
+<link rel="preload" href="/assets/fonts/mona-sans-latin-wdth-wght.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/site.css">
+<link rel="expect" href="#intro" blocking="render">
+<script type="module" src="/assets/js/site.js"></script>
+<link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48">
+<link rel="icon" href="/assets/img/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="PrivateAI">
+<meta property="og:locale" content="en_GB">
+<meta property="og:title" content="MindToo help · PrivateAI">
+<meta property="og:description" content="Installing MindToo on Windows, checking your download, connecting your assistants, where your memory lives, export, backup and uninstalling.">
+<meta property="og:url" content="https://privateai.ltd/mindtoo/help/">
+<meta property="og:image" content="https://privateai.ltd/assets/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="PrivateAI: private AI that stays yours. The violet and gold rings on deep ink.">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"PrivateAI","legalName":"PrivateAI, Belfast Ltd","url":"https://privateai.ltd/","email":"support@privateai.ltd","foundingDate":"2026-10-09","identifier":{"@type":"PropertyValue","propertyID":"Companies House","value":"NI744384"},"address":{"@type":"PostalAddress","streetAddress":"74 Mount Eagles Glen, Dunmurry","addressLocality":"Belfast","addressRegion":"Northern Ireland","postalCode":"BT17 0WR","addressCountry":"GB"},"founder":{"@type":"Person","name":"Brooke Tamsin Clevenger"},"logo":"https://privateai.ltd/assets/img/icon-512.png"}</script>
+<script type="speculationrules">{"prerender":[{"where":{"href_matches":"/*"},"eagerness":"moderate"}]}</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="site-header__inner wrap">
+    <a class="brand" href="/">
+      <svg class="mark mark--header" viewBox="0 0 512 512" aria-hidden="true" focusable="false"><defs><linearGradient id="ring-gold-header" x1="0" y1="0" x2="1" y2="1"><stop class="mark__stop-a" offset="0" stop-color="#f1d27a"/><stop class="mark__stop-b" offset="1" stop-color="#c9a227"/></linearGradient></defs><circle class="mark__ring-a" cx="206" cy="256" r="118" fill="none" stroke="#9d86ff" stroke-width="28"/><circle class="mark__ring-b" cx="306" cy="256" r="118" fill="none" stroke="url(#ring-gold-header)" stroke-width="28"/><circle class="mark__core" cx="256" cy="256" r="20" fill="#ffffff"/></svg>
+      <span class="wordmark">Private<span class="gild">AI</span></span>
+    </a>
+    <button class="menu-button" type="button" popovertarget="site-nav">
+      <span class="menu-button__icon" aria-hidden="true"></span>
+      <span class="menu-button__label">Menu</span>
+    </button>
+    <nav class="site-nav" id="site-nav" popover aria-label="Main">
+      <ul role="list">
+          <li><a href="/products/" aria-current="page">Products</a></li>
+          <li><a href="/principles/">Principles</a></li>
+          <li><a href="/research/">Research</a></li>
+          <li><a href="/about/">About</a></li>
+          <li><a href="/contact/">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" tabindex="-1">
+<section class="page-intro intro" id="intro" aria-labelledby="page-title">
+  <div class="wrap">
+    <p class="eyebrow">MindToo</p>
+    <h1 id="page-title">Help</h1>
+    <p class="lede">Installing MindToo, looking after your memory, and taking it with you.</p>
+  </div>
+</section>
+
+<section class="section" id="install" aria-labelledby="install-title">
+  <div class="wrap">
+    <header class="section-head">
+      <p class="eyebrow">Installing</p>
+      <h2 id="install-title">Install it on Windows.</h2>
+    </header>
+    <dl class="facts">
+      <div class="facts__row" data-claim="R1">
+        <dt>Download</dt>
+        <dd><p>Download the installer from the <a href="/mindtoo/">MindToo page</a> and run it. It installs for you alone, with no administrator rights needed, and opens MindToo when it finishes.</p></dd>
+      </div>
+      <div class="facts__row" data-claim="R2">
+        <dt>Checking your download</dt>
+        <dd>
+          <p>The installer is signed by PrivateAI, Belfast Ltd through Microsoft’s signing service, so Windows names the publisher when it asks whether to run it. If Windows says the publisher is unknown, the file is not ours: do not run it.</p>
+          <p>To be sure your download is the one we published, open PowerShell in your Downloads folder and run <code>Get-FileHash .\MindToo-Setup-1.14.0.exe</code>. The result should match the SHA-256 published with the release: <code>1d07c4701d959f20f12356d67efccac16c9abf5e34b556d5db62fb8f411a73d5</code>.</p>
+        </dd>
+      </div>
+      <div class="facts__row" data-claim="C27">
+        <dt>Connect your assistants</dt>
+        <dd><p>In MindToo, open Assistants. It lists the ones it finds on your computer; connect each one you use.</p></dd>
+      </div>
+      <div class="facts__row" data-claim="C23">
+        <dt>Check it is working</dt>
+        <dd><p>On the Assistants screen, press Check, then send a message in that assistant. MindToo shows your message arriving, or says plainly if nothing came.</p></dd>
+      </div>
+    </dl>
+  </div>
+</section>
+
+<section class="section" id="memory" aria-labelledby="memory-title">
+  <div class="wrap">
+    <header class="section-head">
+      <p class="eyebrow">Your memory</p>
+      <h2 id="memory-title">Where it lives, and how to keep it.</h2>
+    </header>
+    <dl class="facts">
+      <div class="facts__row" data-claim="C26">
+        <dt>Where it lives</dt>
+        <dd><p>In the <code>.mindtoo</code> folder in your Windows user folder, as one file, <code>mindtoo.db</code>. Nothing is kept anywhere else.</p></dd>
+      </div>
+      <div class="facts__row" data-claim="C18">
+        <dt>Export</dt>
+        <dd><p>Export everything to a single file whenever you like, with Export everything in the app. Export never locks, trial or not.</p></dd>
+      </div>
+      <div class="facts__row" data-claim="C20">
+        <dt>Backups</dt>
+        <dd><p>Make a backup from Settings at any time. A backup is a consistent copy, and restoring one brings back only what is missing.</p></dd>
+      </div>
+      <div class="facts__row" data-claim="C24">
+        <dt>Switching capture off</dt>
+        <dd><p>Pause MindToo for every assistant from the app, or set one assistant’s access to read-only or none. While it is paused, nothing new is kept.</p></dd>
+      </div>
+      <div class="facts__row" data-claim="C9">
+        <dt>Keeping things private</dt>
+        <dd><p>Mark a topic or a conversation private, and no assistant can see it. You still can.</p></dd>
+      </div>
+      <div class="facts__row" data-claim="C8 C25">
+        <dt>Deleting</dt>
+        <dd><p>Only you can delete for good, in the app. Deleting a conversation asks you first.</p></dd>
+      </div>
+    </dl>
+  </div>
+</section>
+
+<section class="section" id="uninstall" aria-labelledby="uninstall-title">
+  <div class="wrap">
+    <header class="section-head">
+      <p class="eyebrow">Leaving</p>
+      <h2 id="uninstall-title">Uninstalling.</h2>
+    </header>
+    <dl class="facts">
+      <div class="facts__row" data-claim="R3">
+        <dt>The app</dt>
+        <dd><p>Uninstall MindToo from Windows Settings, under Apps. Disconnect your assistants in MindToo first, so their settings are tidied too.</p></dd>
+      </div>
+      <div class="facts__row" data-claim="R3 C26">
+        <dt>Your memory</dt>
+        <dd><p>Uninstalling leaves your memory where it is, in the <code>.mindtoo</code> folder, so nothing is lost by accident. Export it first if you want a copy, then delete the folder yourself if you want it gone.</p></dd>
+      </div>
+    </dl>
+    <p class="callout">Still stuck? Write to <a href="mailto:support@privateai.ltd">support@privateai.ltd</a>.</p>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap site-footer__grid">
+    <div class="site-footer__brand">
+      <a class="brand" href="/">
+        <svg class="mark mark--footer" viewBox="0 0 512 512" aria-hidden="true" focusable="false"><defs><linearGradient id="ring-gold-footer" x1="0" y1="0" x2="1" y2="1"><stop class="mark__stop-a" offset="0" stop-color="#f1d27a"/><stop class="mark__stop-b" offset="1" stop-color="#c9a227"/></linearGradient></defs><circle class="mark__ring-a" cx="206" cy="256" r="118" fill="none" stroke="#9d86ff" stroke-width="28"/><circle class="mark__ring-b" cx="306" cy="256" r="118" fill="none" stroke="url(#ring-gold-footer)" stroke-width="28"/><circle class="mark__core" cx="256" cy="256" r="20" fill="#ffffff"/></svg>
+        <span class="wordmark">Private<span class="gild">AI</span></span>
+      </a>
+      <p>Private AI that stays yours.</p>
+    </div>
+    <nav class="site-footer__nav" aria-labelledby="footer-explore">
+      <h2 class="site-footer__heading" id="footer-explore">Explore</h2>
+      <ul role="list">
+        <li><a href="/products/">Products</a></li>
+        <li><a href="/principles/">Principles</a></li>
+        <li><a href="/research/">Research and writing</a></li>
+        <li><a href="/about/">About</a></li>
+      </ul>
+    </nav>
+    <nav class="site-footer__nav" aria-labelledby="footer-details">
+      <h2 class="site-footer__heading" id="footer-details">Details</h2>
+      <ul role="list">
+        <li><a href="/contact/">Contact</a></li>
+        <li><a href="/privacy/">Privacy</a></li>
+        <li><a href="/legal/">Legal</a></li>
+        <li><a href="/family/">The wider family</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="wrap site-footer__base">
+    <p>privateai.ltd · Made in Belfast</p>
+    <p>© 2026 PrivateAI, Belfast Ltd</p>
+    <p>Registered in Northern Ireland, company number NI744384</p>
+    <p><a href="/privacy/">This site collects nothing.</a></p>
+  </div>
+</footer>
+</body>
+</html>

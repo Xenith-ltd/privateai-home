@@ -258,7 +258,7 @@
   cite { font-family: var(--font-serif); font-weight: 450; font-size: 1.08em; }
   strong, b { font-weight: 650; }
 
-  code, kbd, samp { font-family: var(--font-mono); font-size: 0.9em; }
+  code, kbd, samp { font-family: var(--font-mono); font-size: 0.9em; overflow-wrap: anywhere; } /* a 64-character SHA-256 wraps on a phone instead of scrolling the page */
 
   hr { border: 0; border-top: 1px solid var(--line); margin: 0; }
 }
