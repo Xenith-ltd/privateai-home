@@ -1228,3 +1228,14 @@
     a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 0.85em; }
   }
 }
+
+/* studio: manual videos */
+.video video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 10; border: 1px solid var(--line-strong); border-radius: var(--radius-card); background: #100e16; }
+.video video:focus, .video video:focus-within { outline: 2px solid var(--focus); outline-offset: 3px; }
+.video figcaption { margin-top: 0.75rem; font-size: 0.95rem; opacity: 0.85; }
+.video-list { list-style: none; margin: 1.5rem 0 0; padding: 0; display: grid; gap: 1.25rem; grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); }
+.video-list a { display: block; text-decoration: none; color: inherit; }
+.video-list img { width: 100%; height: auto; aspect-ratio: 16 / 10; border: 1px solid var(--line); border-radius: var(--radius-control); }
+.video-list a:hover img, .video-list a:focus-visible img { border-color: var(--line-strong); }
+.video-list__title { display: block; margin-top: 0.6rem; font-weight: 600; text-decoration: underline; text-underline-offset: 0.2em; }
+.video-list__meta { display: block; margin-top: 0.2rem; font-size: 0.9rem; opacity: 0.8; }
