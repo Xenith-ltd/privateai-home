@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en-GB" data-page="products">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'inline-speculation-rules'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'none'; media-src 'self'; object-src 'none'; frame-src 'none'; worker-src 'none'; manifest-src 'self'; form-action 'none'; base-uri 'none'">
+<meta name="referrer" content="no-referrer">
+<meta name="color-scheme" content="dark light">
+<title>MindToo compared · PrivateAI</title>
+<meta name="description" content="How MindToo compares with claude-mem, Mem0’s OpenMemory, Memorix, Supermemory, Pieces and the memory built into Claude Code, Codex and Cursor, checked 21 October 2026.">
+<link rel="canonical" href="https://privateai.ltd/mindtoo/compare/">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#110c26">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#f7f5fb">
+<link rel="preload" href="/assets/fonts/mona-sans-latin-wdth-wght.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/site.css">
+<link rel="expect" href="#intro" blocking="render">
+<script type="module" src="/assets/js/site.js"></script>
+<link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48">
+<link rel="icon" href="/assets/img/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="PrivateAI">
+<meta property="og:locale" content="en_GB">
+<meta property="og:title" content="MindToo compared · PrivateAI">
+<meta property="og:description" content="How MindToo compares with claude-mem, Mem0’s OpenMemory, Memorix, Supermemory, Pieces and the memory built into Claude Code, Codex and Cursor, checked 21 October 2026.">
+<meta property="og:url" content="https://privateai.ltd/mindtoo/compare/">
+<meta property="og:image" content="https://privateai.ltd/assets/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="PrivateAI: private AI that stays yours. The violet and gold rings on deep ink.">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","@id":"https://privateai.ltd/#organization","name":"PrivateAI","legalName":"PrivateAI, Belfast Ltd","url":"https://privateai.ltd/","email":"support@privateai.ltd","foundingDate":"2026-10-09","identifier":{"@type":"PropertyValue","propertyID":"Companies House","value":"NI744384"},"founder":{"@type":"Person","name":"Brooke Tamsin Clevenger"},"logo":"https://privateai.ltd/assets/img/icon-512.png"}</script>
+<script type="speculationrules">{"prerender":[{"where":{"href_matches":"/*"},"eagerness":"moderate"}]}</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="site-header__inner wrap">
+    <a class="brand" href="/">
+      <svg class="mark mark--header" viewBox="0 0 512 512" aria-hidden="true" focusable="false"><defs><linearGradient id="ring-gold-header" x1="0" y1="0" x2="1" y2="1"><stop class="mark__stop-a" offset="0" stop-color="#f1d27a"/><stop class="mark__stop-b" offset="1" stop-color="#c9a227"/></linearGradient></defs><circle class="mark__ring-a" cx="206" cy="256" r="118" fill="none" stroke="#9d86ff" stroke-width="28"/><circle class="mark__ring-b" cx="306" cy="256" r="118" fill="none" stroke="url(#ring-gold-header)" stroke-width="28"/><circle class="mark__core" cx="256" cy="256" r="20" fill="#ffffff"/></svg>
+      <span class="wordmark">Private<span class="gild">AI</span></span>
+    </a>
+    <button class="menu-button" type="button" popovertarget="site-nav">
+      <span class="menu-button__icon" aria-hidden="true"></span>
+      <span class="menu-button__label">Menu</span>
+    </button>
+    <nav class="site-nav" id="site-nav" popover aria-label="Main">
+      <ul role="list">
+          <li><a href="/products/" aria-current="page">Products</a></li>
+          <li><a href="/principles/">Principles</a></li>
+          <li><a href="/research/">Research</a></li>
+          <li><a href="/about/">About</a></li>
+          <li><a href="/contact/">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" tabindex="-1">
+<section class="page-intro intro" id="intro" aria-labelledby="page-title">
+  <div class="wrap">
+    <p class="eyebrow">MindToo</p>
+    <h1 id="page-title">Compared with the alternatives</h1>
+    <p class="lede">There are good tools that keep memory for AI assistants, several of them free and open source. This page says plainly what they do, what MindToo does, and where MindToo is the wrong choice. Everything here was checked against each tool’s own documentation on 21 October 2026. If something has changed, tell us: support@privateai.ltd.</p>
+  </div>
+</section>
+
+<section class="section" id="difference" aria-labelledby="difference-title">
+  <div class="wrap">
+    <header class="section-head">
+      <p class="eyebrow">In three lines</p>
+      <h2 id="difference-title">What MindToo does that the free tools do not.</h2>
+    </header>
+    <dl class="facts">
+      <div class="facts__row" data-claim="C28">
+        <dt>Nothing to set up first</dt>
+        <dd><p>No terminal, no Node, no Docker, no API key, no account. You run one signed installer. Search by meaning uses a small model that ships inside the app and runs on your computer, so it works before you have added any key, and offline.</p></dd>
+      </div>
+      <div class="facts__row" data-claim="C12">
+        <dt>It starts with what you already have</dt>
+        <dd><p>It brings in the conversations Claude Code, Codex and Gemini CLI already keep on your computer, and the data exports of the Claude app and ChatGPT. None of the free tools below document an import of your past conversations.</p></dd>
+      </div>
+      <div class="facts__row" data-claim="C6">
+        <dt>A window to read and correct it</dt>
+        <dd><p>Read, search and correct your memory in one window. A correction replaces the memory for every assistant, and the old version stays in the history. Each assistant gets full, read-only or no access, and a passcode locks the lot.</p></dd>
+      </div>
+    </dl>
+  </div>
+</section>
+
+<section class="section" id="wrong-choice" aria-labelledby="wrong-choice-title">
+  <div class="wrap">
+    <header class="section-head">
+      <p class="eyebrow">Fair is fair</p>
+      <h2 id="wrong-choice-title">Where MindToo is the wrong choice.</h2>
+    </header>
+    <dl class="facts">
+      <div class="facts__row" data-claim="R1">
+        <dt>You are on a Mac or Linux</dt>
+        <dd><p>MindToo runs on Windows 10 and 11 only. claude-mem, OpenMemory, Memorix and Engrim run wherever their runtimes run; Pieces runs on Windows, macOS and Ubuntu.</p></dd>
+      </div>
+      <div class="facts__row" data-claim="X10">
+        <dt>You want to read the source</dt>
+        <dd><p>MindToo’s source is not published. The five files of its Claude app plugin, which do the capture there, are public on GitHub, and the memory is one SQLite file you can open with any SQLite tool; the app itself is closed. claude-mem, OpenMemory, Memorix and Engrim are open source under Apache-2.0 or MIT, so anyone can audit what they store and send.</p></dd>
+      </div>
+      <div class="facts__row" data-claim="C1">
+        <dt>You use assistants MindToo does not cover</dt>
+        <dd><p>MindToo keeps each message and reply in Claude Code, Codex, Gemini CLI, Cursor and Windsurf, and in the Claude app through its skill and plugin. It does not cover Copilot, OpenCode or Antigravity; claude-mem and Memorix do.</p></dd>
+      </div>
+      <div class="facts__row" data-claim="C26">
+        <dt>You want your memory to follow you between machines</dt>
+        <dd><p>MindToo keeps your memory in one file on one computer, by design, with no account and no MindToo cloud. claude-mem’s paid tier and Supermemory sync through their clouds.</p></dd>
+      </div>
+      <div class="facts__row" data-claim="X7">
+        <dt>You only use one assistant</dt>
+        <dd><p>Claude Code, Codex and Cursor each have a memory of their own, free and already installed. MindToo earns its place when you use more than one and want them to share what they know.</p></dd>
+      </div>
+    </dl>
+  </div>
+</section>
+
+<section class="section" id="tools" aria-labelledby="tools-title">
+  <div class="wrap">
+    <header class="section-head">
+      <p class="eyebrow">Tool by tool</p>
+      <h2 id="tools-title">What each one is, in its own documentation’s words.</h2>
+    </header>
+    <p>Prices and features are as published by each project on 21 October 2026; follow the links for the current state. We have no connection with any of them.</p>
+
+    <h3 id="mindtoo">MindToo</h3>
+    <dl class="facts">
+      <div class="facts__row" data-claim="P1">
+        <dt>Price and source</dt>
+        <dd><p>Free for 14 days with everything working, then £29 including VAT, paid once, for up to three of your own computers and every 1.x update. Closed source.</p></dd>
+      </div>
+      <div class="facts__row" data-claim="C2">
+        <dt>Works with</dt>
+        <dd><p>Claude Code, Codex, Gemini CLI, Cursor and Windsurf, and the Claude app.</p></dd>
+      </div>
+      <div class="facts__row" data-claim="C16">
+        <dt>Where memory lives, and what goes online</dt>
+        <dd><p>One file, mindtoo.db, in the .mindtoo folder in your Windows user folder. Online, MindToo sends only your licence key to the shop, and a wallet key to its own provider when you press Test. Your memories never leave the computer.</p></dd>
+      </div>
+      <div class="facts__row" data-claim="C18">
+        <dt>If you stop paying, or we stop trading</dt>
+        <dd><p>Reading, search and export never lock, even after the trial, and the file is ordinary SQLite.</p></dd>
+      </div>
+    </dl>
+
+    <h3 id="claude-mem">claude-mem</h3>
+    <dl class="facts">
+      <div class="facts__row" data-claim="X1">
+        <dt>What it is</dt>
+        <dd><p>An open-source (Apache-2.0) plugin that captures what your agent does during sessions, compresses it with an AI model and injects relevant context into future sessions. It works with Claude Code, Codex, Gemini, Copilot, OpenCode and others, and has a web viewer. It needs Node 20 or later, Claude Code with plugin support, Bun and uv, and a local worker. The compression step runs through an AI provider: your own Anthropic plan or key, or its hosted service, which is free for 30 days and then $30 a month. It does not document an import of past conversations. <a href="https://github.com/thedotmack/claude-mem" rel="noreferrer">claude-mem on GitHub</a>; <a href="https://cmem.ai/" rel="noreferrer">its hosted tier</a>.</p></dd>
+      </div>
+    </dl>
+
+    <h3 id="openmemory">OpenMemory, by Mem0</h3>
+    <dl class="facts">
+      <div class="facts__row" data-claim="X2">
+        <dt>What it is</dt>
+        <dd><p>An open-source (Apache-2.0) local memory server that speaks MCP, with a dashboard to add, browse and delete memories and to control which client may read them. It works with Cursor, Claude Desktop, Windsurf, Cline and other MCP clients. It runs as a Docker container and needs an OpenAI API key; Mem0 says the memory store stays on your machine, and the memory extraction uses OpenAI’s models by default. Mem0’s hosted platform runs from a free tier to $249 a month. <a href="https://docs.mem0.ai/openmemory" rel="noreferrer">OpenMemory documentation</a>; <a href="https://mem0.ai/pricing" rel="noreferrer">Mem0 pricing</a>.</p></dd>
+      </div>
+    </dl>
+
+    <h3 id="memorix">Memorix</h3>
+    <dl class="facts">
+      <div class="facts__row" data-claim="X3">
+        <dt>What it is</dt>
+        <dd><p>An open-source (Apache-2.0) local-first shared memory for AI coding agents over MCP, with SQLite as its store and a web dashboard and terminal interface. It covers Claude Code, Codex, Cursor, Windsurf, Gemini CLI, Copilot and more. It needs Node 22.18 or later and Git; API keys and sync are optional, and nothing is sent anywhere by default. <a href="https://github.com/AVIDS2/memorix" rel="noreferrer">Memorix on GitHub</a>.</p></dd>
+      </div>
+    </dl>
+
+    <h3 id="engrim">Engrim</h3>
+    <dl class="facts">
+      <div class="facts__row" data-claim="X4">
+        <dt>What it is</dt>
+        <dd><p>An open-source (MIT) local memory engine for AI command-line tools, installed with pip, keeping one SQLite file with local embeddings and no telemetry or cloud sync. It connects to Claude Code through hooks and to Cursor and Windsurf through MCP. It has no window of its own. <a href="https://github.com/timgordontg/engrim" rel="noreferrer">Engrim on GitHub</a>.</p></dd>
+      </div>
+    </dl>
+
+    <h3 id="supermemory">Supermemory</h3>
+    <dl class="facts">
+      <div class="facts__row" data-claim="X5">
+        <dt>What it is</dt>
+        <dd><p>A cloud memory service with plugins for Claude Code, Cursor and Codex. The free tier gives $5 of credits a month; paid plans run from $19 to $399 a month. A self-hosted binary exists under a "lite" licence, and Supermemory says its server source is not in the public repository. Memories go to Supermemory’s cloud unless you self-host. <a href="https://supermemory.ai/pricing" rel="noreferrer">Supermemory pricing</a>; <a href="https://supermemory.ai/docs/self-hosting/local-vs-enterprise" rel="noreferrer">self-hosting</a>.</p></dd>
+      </div>
+    </dl>
+
+    <h3 id="pieces">Pieces</h3>
+    <dl class="facts">
+      <div class="facts__row" data-claim="X6">
+        <dt>What it is</dt>
+        <dd><p>A desktop app for Windows, macOS and Ubuntu whose long-term memory watches your clipboard, screen, audio and application activity and keeps the result on your device, with MCP access for nineteen clients including Claude Code, Claude Desktop, Codex CLI, Gemini CLI, Cursor and Windsurf. There is no free tier: $18.99 per user a month after a 7-day trial. Prompts sent to cloud models carry your immediate context; telemetry can be turned off. <a href="https://pieces.app/pricing" rel="noreferrer">Pieces pricing</a>; <a href="https://docs.pieces.app/privacy-security-your-data" rel="noreferrer">Pieces on your data</a>.</p></dd>
+      </div>
+    </dl>
+
+    <h3 id="built-in">The memory built into Claude Code, Codex and Cursor</h3>
+    <dl class="facts">
+      <div class="facts__row" data-claim="X7">
+        <dt>Claude Code</dt>
+        <dd><p>Two kinds, both free: CLAUDE.md files you write, and auto memory, notes Claude Code writes for itself, kept per repository as plain markdown files on your machine. Neither is shared with other tools or other machines. <a href="https://code.claude.com/docs/en/memory" rel="noreferrer">Claude Code memory documentation</a>.</p></dd>
+      </div>
+      <div class="facts__row" data-claim="X8">
+        <dt>Codex</dt>
+        <dd><p>Local Codex clients keep a separate local memory store, off by default, generated in the background from your chats into files under your Codex folder; they are not meant to be edited by hand and there is no viewer. <a href="https://learn.chatgpt.com/docs/customization/memories?surface=app" rel="noreferrer">Codex memories documentation</a>.</p></dd>
+      </div>
+      <div class="facts__row" data-claim="X9">
+        <dt>Cursor</dt>
+        <dd><p>Memories are rules Cursor generates from your chats, kept per project and per user and managed in its settings. Cursor’s documentation does not say where they are stored. <a href="https://docs.cursor.com/context/memories" rel="noreferrer">Cursor Memories documentation</a>.</p></dd>
+      </div>
+    </dl>
+  </div>
+</section>
+
+<section class="section" id="try" aria-labelledby="try-title">
+  <div class="wrap">
+    <header class="section-head">
+      <p class="eyebrow">If it fits</p>
+      <h2 id="try-title">Try it free for 14 days.</h2>
+    </header>
+    <dl class="facts">
+      <div class="facts__row" data-claim="C19">
+        <dt>The trial</dt>
+        <dd><p>Everything works for 14 days. After that, keeping new things needs a licence; reading, search and export stay open.</p></dd>
+      </div>
+      <div class="facts__row" data-claim="P7">
+        <dt>The offer</dt>
+        <dd><p>Founding 100: £19 instead of £29 for the first 100 licences, until 30 November. Enter FOUNDING100 at checkout.</p></dd>
+      </div>
+      <div class="facts__row" data-claim="R2">
+        <dt>The download</dt>
+        <dd><p>The installer is signed by PrivateAI, Belfast Ltd through Microsoft’s Artifact Signing, so Windows names the publisher. <a href="/mindtoo/">Download MindToo</a>.</p></dd>
+      </div>
+    </dl>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap site-footer__grid">
+    <div class="site-footer__brand">
+      <a class="brand" href="/">
+        <svg class="mark mark--footer" viewBox="0 0 512 512" aria-hidden="true" focusable="false"><defs><linearGradient id="ring-gold-footer" x1="0" y1="0" x2="1" y2="1"><stop class="mark__stop-a" offset="0" stop-color="#f1d27a"/><stop class="mark__stop-b" offset="1" stop-color="#c9a227"/></linearGradient></defs><circle class="mark__ring-a" cx="206" cy="256" r="118" fill="none" stroke="#9d86ff" stroke-width="28"/><circle class="mark__ring-b" cx="306" cy="256" r="118" fill="none" stroke="url(#ring-gold-footer)" stroke-width="28"/><circle class="mark__core" cx="256" cy="256" r="20" fill="#ffffff"/></svg>
+        <span class="wordmark">Private<span class="gild">AI</span></span>
+      </a>
+      <p>Private AI that stays yours.</p>
+    </div>
+    <nav class="site-footer__nav" aria-labelledby="footer-explore">
+      <h2 class="site-footer__heading" id="footer-explore">Explore</h2>
+      <ul role="list">
+        <li><a href="/products/">Products</a></li>
+        <li><a href="/principles/">Principles</a></li>
+        <li><a href="/research/">Research and writing</a></li>
+        <li><a href="/about/">About</a></li>
+      </ul>
+    </nav>
+    <nav class="site-footer__nav" aria-labelledby="footer-details">
+      <h2 class="site-footer__heading" id="footer-details">Details</h2>
+      <ul role="list">
+        <li><a href="/contact/">Contact</a></li>
+        <li><a href="/privacy/">Privacy</a></li>
+        <li><a href="/legal/">Legal</a></li>
+        <li><a href="/family/">The wider family</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="wrap site-footer__base">
+    <p>privateai.ltd · Made in Belfast</p>
+    <p>© 2026 PrivateAI, Belfast Ltd</p>
+    <p>Registered in Northern Ireland, company number NI744384</p>
+    <p><a href="/privacy/">This site collects nothing.</a></p>
+  </div>
+</footer>
+</body>
+</html>
