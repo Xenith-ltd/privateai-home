@@ -1,0 +1,22 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:07.020
+1/6: Tell Claude Code something once. In Claude Code: "Remember for the Hollybrook garden app: we store everything in SQLite, and we never use an ORM." Reply: I saved it to MindToo as a pinned instruction for the Hollybrook garden app: store all data in SQLite and never use an ORM, writing plain SQL instead.
+
+00:00:07.020 --> 00:00:13.710
+2/6: Ask Codex. It already knows. In Codex CLI: "Quick check before I start: which database does the Hollybrook garden app use, and should I add an ORM?" Reply: The Hollybrook garden app uses SQLite for all of its data.
+
+00:00:13.710 --> 00:00:22.460
+3/6: Plans change. Say so once. In Claude Code: "Update for Hollybrook: we moved from SQLite to PostgreSQL this week. Still no ORM." Reply: I updated the pinned Hollybrook instruction in MindToo.
+
+00:00:22.460 --> 00:00:28.870
+4/6: Codex has the update too. In Codex CLI: "Which database does Hollybrook use now?" Reply: Hollybrook now uses PostgreSQL for all application data.
+
+00:00:28.870 --> 00:00:32.070
+5/6: It all lives in MindToo, on your own computer.
+
+00:00:32.070 --> 00:00:37.070
+6/6: The earlier version is kept, not overwritten.
+
+00:00:37.070 --> 00:00:41.870
+MindToo. One private memory for your AI assistants. Claude Code · Claude Desktop · Codex · Cursor · Gemini CLI · Windsurf Windows · stored only on your computer privateai.ltd/mindtoo
