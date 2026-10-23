@@ -787,6 +787,12 @@
   }
   .callout strong { color: var(--ink); }
 
+  /* Listing: the store and directory badges on the MindToo page, in one row at one height, wrapping on a phone.
+     Each badge is its owner's artwork, unaltered; only its size is set here, and it keeps its own proportions. */
+  .listing { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-3) var(--space-4); margin-block: var(--space-5); }
+  .listing a { display: inline-flex; border-radius: 6px; }
+  .listing img { display: block; height: 54px; width: auto; max-width: 100%; }
+
   /* Facts: a definition list set as a quiet table */
   .facts { display: grid; gap: 0; container: facts / inline-size; max-width: 56rem; }
   .facts__row { display: grid; gap: var(--space-1); padding-block: var(--space-5); border-top: 1px solid var(--line); }
